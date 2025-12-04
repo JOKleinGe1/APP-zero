@@ -11,4 +11,8 @@ Le document "demi_ponts.pdf" contient les instructions pour le brise glace utili
 Le simulateur de robot, pour simuler la compétition lors de la dernière demi-journée (jour 3) se trouve dans "mr2d2_2022/"
 
 Les algorithmes produits par les étudiants viennent remplacer les codes sources dans les fichiers mr2d2_X.c (X=0…3). 
-Un backuop des algo par défaut se trouve dans le répertoire "".
+Un backuop des algos par défaut se trouve dans le répertoire "mr2d2_2022/defaultalgo/".
+
+Le makefile produit des executables pour différents niveaux de difficulté (pas d'obstacle, obstacles isolés, en ligne, en coin, touchant les bords). 
+
+
