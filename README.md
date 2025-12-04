@@ -13,7 +13,7 @@ Le simulateur de robot, pour simuler la compétition lors de la dernière demi-j
 Les algorithmes produits par les étudiants viennent remplacer les codes sources dans les fichiers mr2d2_X.c (X=0…3). 
 Un backuop des algos par défaut se trouve dans le répertoire "mr2d2_2022/defaultalgo/".
 
-Le makefile produit des executables pour différents niveaux de difficulté (pas d'obstacle, obstacles isolés, en ligne, en coin, touchant les bords). 
+Le makefile produit des executables pour différents niveaux de difficulté (pas d'obstacle, obstacles isolés, en ligne, en coin, touchant les bords). Les exécutables s'appellent ./levelX (X=0...3). 
 
-Le simulateur est dans le fichier "mr2d2_simul.c". 
+Le simulateur est dans le fichier "mr2d2_simul.c". C'est du C standard. Le simulateur fonctionne sous linux et max-os (en mode terminal, sans changer la dimension de la fenêtre). Les algorithmes sont simulés par des threads. 
 Les obstacle y sont définis dans la fonction "void MAP_Refresh(void)" à partir de la ligne 232. On peut les modifier. 
