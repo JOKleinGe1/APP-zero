@@ -9,3 +9,6 @@ Il contient un script (macro) pour générer, dans le reprétoire "a_imprimer/",
 Le document "demi_ponts.pdf" contient les instructions pour le brise glace utilisé lors de la 1ere demi journée. 
 
 Le simulateur de robot, pour simuler la compétition lors de la dernière demi-journée (jour 3) se trouve dans "mr2d2_2022/"
+
+Les algorithmes produits par les étudiants viennent remplacer les codes sources dans les fichiers mr2d2_X.c (X=0…3). 
+Un backuop des algo par défaut se trouve dans le répertoire "".
