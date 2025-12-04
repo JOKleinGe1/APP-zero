@@ -15,5 +15,5 @@ Un backuop des algos par défaut se trouve dans le répertoire "mr2d2_2022/defau
 
 Le makefile produit des executables pour différents niveaux de difficulté (pas d'obstacle, obstacles isolés, en ligne, en coin, touchant les bords). 
 
-Le simulateur est dans le fichier . 
-Les obstacle y sont définis dans la fonction void MAP_Refresh(void) à partir de la ligne 232. 
+Le simulateur est dans le fichier "mr2d2_simul.c". 
+Les obstacle y sont définis dans la fonction "void MAP_Refresh(void)" à partir de la ligne 232. On peut les modifier. 
